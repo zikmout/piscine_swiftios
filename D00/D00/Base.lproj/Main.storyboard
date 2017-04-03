@@ -21,20 +21,39 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e2w-h8-ASV">
-                                <rect key="frame" x="158" y="318.5" width="59" height="30"/>
-                                <state key="normal" title="Click me"/>
-                                <connections>
-                                    <action selector="clickButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jtF-nt-NKf"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="Yb2-X8-viu">
+                                <rect key="frame" x="158" y="309" width="59" height="50.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="59" placeholderIntrinsicHeight="20.5" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OnL-Pk-r95">
+                                        <rect key="frame" x="0.0" y="0.0" width="59" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e2w-h8-ASV">
+                                        <rect key="frame" x="0.0" y="20.5" width="59" height="30"/>
+                                        <state key="normal" title="Click me"/>
+                                        <connections>
+                                            <action selector="clickButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jtF-nt-NKf"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="OnL-Pk-r95" firstAttribute="centerX" secondItem="e2w-h8-ASV" secondAttribute="centerX" id="J3d-ku-bM9"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="e2w-h8-ASV" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="6u2-sZ-5jP"/>
-                            <constraint firstItem="e2w-h8-ASV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oPU-Lv-Bx8"/>
+                            <constraint firstItem="OnL-Pk-r95" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6CW-a0-Mbp"/>
+                            <constraint firstItem="e2w-h8-ASV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CKy-qf-xaJ"/>
+                            <constraint firstItem="Yb2-X8-viu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SKz-Dd-UWh"/>
+                            <constraint firstItem="Yb2-X8-viu" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="gQq-Fd-POQ"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="textLabel" destination="OnL-Pk-r95" id="vfJ-7e-3j6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
