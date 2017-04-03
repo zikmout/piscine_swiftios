@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "93A28A711E9271C900332D5B"
-               BuildableName = "toto.app"
-               BlueprintName = "toto"
-               ReferencedContainer = "container:toto.xcodeproj">
+               BuildableName = "calc.app"
+               BlueprintName = "calc"
+               ReferencedContainer = "container:calc.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "93A28A711E9271C900332D5B"
-            BuildableName = "toto.app"
-            BlueprintName = "toto"
-            ReferencedContainer = "container:toto.xcodeproj">
+            BuildableName = "calc.app"
+            BlueprintName = "calc"
+            ReferencedContainer = "container:calc.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "93A28A711E9271C900332D5B"
-            BuildableName = "toto.app"
-            BlueprintName = "toto"
-            ReferencedContainer = "container:toto.xcodeproj">
+            BuildableName = "calc.app"
+            BlueprintName = "calc"
+            ReferencedContainer = "container:calc.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "93A28A711E9271C900332D5B"
-            BuildableName = "toto.app"
-            BlueprintName = "toto"
-            ReferencedContainer = "container:toto.xcodeproj">
+            BuildableName = "calc.app"
+            BlueprintName = "calc"
+            ReferencedContainer = "container:calc.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

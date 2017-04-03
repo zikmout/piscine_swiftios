@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		93A28A721E9271C900332D5B /* toto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = toto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A28A721E9271C900332D5B /* calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A28A751E9271C900332D5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93A28A771E9271CA00332D5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		93A28A7A1E9271CA00332D5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		93A28A691E9271C800332D5B = {
 			isa = PBXGroup;
 			children = (
-				93A28A741E9271C900332D5B /* toto */,
+				93A28A741E9271C900332D5B /* calc */,
 				93A28A731E9271C900332D5B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +46,12 @@
 		93A28A731E9271C900332D5B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				93A28A721E9271C900332D5B /* toto.app */,
+				93A28A721E9271C900332D5B /* calc.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		93A28A741E9271C900332D5B /* toto */ = {
+		93A28A741E9271C900332D5B /* calc */ = {
 			isa = PBXGroup;
 			children = (
 				93A28A751E9271C900332D5B /* AppDelegate.swift */,
@@ -61,15 +61,16 @@
 				93A28A7E1E9271CB00332D5B /* LaunchScreen.storyboard */,
 				93A28A811E9271CB00332D5B /* Info.plist */,
 			);
+			name = calc;
 			path = toto;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		93A28A711E9271C900332D5B /* toto */ = {
+		93A28A711E9271C900332D5B /* calc */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 93A28A841E9271CB00332D5B /* Build configuration list for PBXNativeTarget "toto" */;
+			buildConfigurationList = 93A28A841E9271CB00332D5B /* Build configuration list for PBXNativeTarget "calc" */;
 			buildPhases = (
 				93A28A6E1E9271C900332D5B /* Sources */,
 				93A28A6F1E9271C900332D5B /* Frameworks */,
@@ -79,9 +80,9 @@
 			);
 			dependencies = (
 			);
-			name = toto;
+			name = calc;
 			productName = toto;
-			productReference = 93A28A721E9271C900332D5B /* toto.app */;
+			productReference = 93A28A721E9271C900332D5B /* calc.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -100,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 93A28A6D1E9271C800332D5B /* Build configuration list for PBXProject "toto" */;
+			buildConfigurationList = 93A28A6D1E9271C800332D5B /* Build configuration list for PBXProject "calc" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -113,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				93A28A711E9271C900332D5B /* toto */,
+				93A28A711E9271C900332D5B /* calc */,
 			);
 		};
 /* End PBXProject section */
@@ -262,7 +263,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = toto/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = piscine.toto;
+				PRODUCT_BUNDLE_IDENTIFIER = piscine.calc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -274,7 +275,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = toto/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = piscine.toto;
+				PRODUCT_BUNDLE_IDENTIFIER = piscine.calc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -283,7 +284,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		93A28A6D1E9271C800332D5B /* Build configuration list for PBXProject "toto" */ = {
+		93A28A6D1E9271C800332D5B /* Build configuration list for PBXProject "calc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				93A28A821E9271CB00332D5B /* Debug */,
@@ -292,13 +293,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		93A28A841E9271CB00332D5B /* Build configuration list for PBXNativeTarget "toto" */ = {
+		93A28A841E9271CB00332D5B /* Build configuration list for PBXNativeTarget "calc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				93A28A851E9271CB00332D5B /* Debug */,
 				93A28A861E9271CB00332D5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

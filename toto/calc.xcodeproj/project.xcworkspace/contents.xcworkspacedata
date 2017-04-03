@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:toto.xcodeproj">
+      location = "self:/Users/ssicard/Projects/piscine_swiftios/toto/calc.xcodeproj">
    </FileRef>
 </Workspace>
