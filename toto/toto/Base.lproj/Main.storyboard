@@ -37,30 +37,18 @@
                                         <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="17"/>
                                         <state key="normal" title="1"/>
-                                        <connections>
-                                            <action selector="buttonOne:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Bc-tc-i3q"/>
-                                            <action selector="numbers:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bbu-JJ-Cm3"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BSE-Sc-SJJ">
                                         <rect key="frame" x="94" y="0.0" width="94" height="32"/>
                                         <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="17"/>
                                         <state key="normal" title="2"/>
-                                        <connections>
-                                            <action selector="buttonTwo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MRU-fC-7s2"/>
-                                            <action selector="numbers:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vyu-ca-Tzp"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D1R-cD-SWz">
                                         <rect key="frame" x="188" y="0.0" width="94" height="32"/>
                                         <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="17"/>
                                         <state key="normal" title="3"/>
-                                        <connections>
-                                            <action selector="buttonThree:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pa4-ek-G73"/>
-                                            <action selector="numbers:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mem-e2-YWx"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IDS-Of-ts2">
                                         <rect key="frame" x="282" y="0.0" width="93" height="32"/>
@@ -84,30 +72,18 @@
                                         <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="17"/>
                                         <state key="normal" title="4"/>
-                                        <connections>
-                                            <action selector="buttonFour:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ccg-0t-Gis"/>
-                                            <action selector="numbers:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eDR-On-Ahh"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BRh-Zu-Ti0">
                                         <rect key="frame" x="94" y="0.0" width="94" height="32"/>
                                         <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="17"/>
                                         <state key="normal" title="5"/>
-                                        <connections>
-                                            <action selector="buttonFive:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IOw-7F-rh6"/>
-                                            <action selector="numbers:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eFq-b2-LGU"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VnJ-wq-jgD">
                                         <rect key="frame" x="188" y="0.0" width="94" height="32"/>
                                         <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="17"/>
                                         <state key="normal" title="6"/>
-                                        <connections>
-                                            <action selector="buttonSix:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FQk-of-vhA"/>
-                                            <action selector="numbers:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uxw-0Y-ob9"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r7h-Ym-B8e">
                                         <rect key="frame" x="282" y="0.0" width="93" height="32"/>
@@ -131,30 +107,18 @@
                                         <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="17"/>
                                         <state key="normal" title="7"/>
-                                        <connections>
-                                            <action selector="buttonSeven:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0In-w8-GY3"/>
-                                            <action selector="numbers:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kXq-Kt-0qg"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uEr-nj-A7b">
                                         <rect key="frame" x="94" y="0.0" width="94" height="32"/>
                                         <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="17"/>
                                         <state key="normal" title="8"/>
-                                        <connections>
-                                            <action selector="buttonEight:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Sdf-Sw-Z3g"/>
-                                            <action selector="numbers:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QHU-9k-Thb"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ipL-ss-DqM">
                                         <rect key="frame" x="188" y="0.0" width="94" height="32"/>
                                         <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="17"/>
                                         <state key="normal" title="9"/>
-                                        <connections>
-                                            <action selector="buttonNine:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bOo-ZH-tzl"/>
-                                            <action selector="numbers:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kbv-wG-yrV"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vbA-Fd-0e5">
                                         <rect key="frame" x="282" y="0.0" width="93" height="32"/>
@@ -184,10 +148,6 @@
                                         <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="17"/>
                                         <state key="normal" title="0"/>
-                                        <connections>
-                                            <action selector="buttonZero:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yqx-CP-eGC"/>
-                                            <action selector="numbers:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iOI-fv-q30"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B8L-Ex-EQm">
                                         <rect key="frame" x="187.5" y="0.0" width="94" height="32"/>
@@ -239,10 +199,6 @@
                             <constraint firstItem="LOV-aU-IXY" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="wTM-8s-gGf"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="label" destination="YR6-eH-bFF" id="Mcs-KX-xkC"/>
-                        <outlet property="resultLabel" destination="YR6-eH-bFF" id="Q9I-CS-8y8"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
