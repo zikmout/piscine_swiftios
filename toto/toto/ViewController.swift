@@ -18,6 +18,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var label: UILabel!
     
     @IBAction func numbers(_ sender: UIButton) {
+        print("UIButtons numbers pressed\(sender.tag-1)")
         if performingMath == true
         {
             label.text = String(sender.tag-1)
@@ -32,27 +33,39 @@ class ViewController: UIViewController {
     }
     
     @IBAction func buttons(_ sender: UIButton) {
+        
+        print("UIButton buttons pressed\(sender.tag)")
+
         if label.text != "" && sender.tag != 13 && sender.tag != 12 && sender.tag != 10
         {
-            previousNumber = Double(label.text!)!
-            if sender.tag == 11 // multiply
+            if label.text == "*" || label.text == "+" || label.text == "-" || label.text == "/"
             {
-                label.text = "*";
+                label.text = String(previousNumber);
+                operation = sender.tag
+                performingMath = true
             }
-            else if sender.tag == 14 // plus
+            else
             {
-                label.text = "+";
+                previousNumber = Double(label.text!)!
+                if sender.tag == 11 // multiply
+                {
+                    label.text = "*";
+                }
+                else if sender.tag == 14 // plus
+                {
+                    label.text = "+";
+                }
+                else if sender.tag == 15 // minus
+                {
+                    label.text = "-";
+                }
+                else if sender.tag == 16 // divide
+                {
+                    label.text = "/";
+                }
+                operation = sender.tag
+                performingMath = true
             }
-            else if sender.tag == 15 // minus
-            {
-                label.text = "-";
-            }
-            else if sender.tag == 16 // divide
-            {
-                label.text = "/";
-            }
-            operation = sender.tag
-            performingMath = true
         }
         else if sender.tag == 12
         {
